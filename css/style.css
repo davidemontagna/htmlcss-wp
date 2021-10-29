@@ -53,6 +53,22 @@ header, .container, .title{
     background-image: url(../img/banner.jpg);
     height: 820px;
     background-size: cover; 
+    position: relative;
+}
+
+.text-image{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    color: white;
+    font-size: 60px;
+}
+
+.small-text{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: 20px;
 }
 
 /*Blocco contenitori blu*/
