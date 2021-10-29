@@ -66,13 +66,21 @@ header, .container, .title{
 
 /*Sottocontenitori azzurri*/
 .title, .content, .left{
-    background-color: #abcfe7;
+    
 
 }
 
 .title{
-    float: top;
-    height: 50px;
+    float: top;   
+}
+
+.title h1{
+    font-size: 30px;
+}
+
+.title h5{
+    font-size: 12px;
+    color: darkgray;
 }
 
 .left, .content{
@@ -80,8 +88,11 @@ header, .container, .title{
     height: 300px;
 }
 
-.left{
+.bgl{
+    background-image: url(../img/img-1.jpg);
+    background-size: contain;
     width: 20%;
+    background-repeat: no-repeat;
 }
 
 .middle{
