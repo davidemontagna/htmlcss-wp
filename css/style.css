@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Dimensioni e distanziamento pagina*/
+body{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+#logo img{
+    height: 60px;
+    border-right: 2px solid #a4a4a4;
+    padding-right: 20px;
+}
+
+main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav{
+    margin: 20px 0;
+}
+
+ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+ul li a{
+    color: #a4a4a4;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #0086fe; 
+    text-decoration: underline; 
+    cursor:pointer;
+}
+
+/*Distanziamento sezioni*/
+header, .container, .title{
+    margin-bottom: 20px;
+}
+
+.container{
+    background-image: url(../img/banner.jpg);
+    height: 820px;
+    background-size: cover; 
+}
+
+/*Blocco contenitori blu*/
+.container2{
+    background-color: #0086fe;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+/*Sottocontenitori azzurri*/
+.title, .content, .left{
+    background-color: #abcfe7;
+
+}
+
+.title{
+    float: top;
+    height: 50px;
+}
+
+.left, .content{
+    float: left;
+    height: 300px;
+}
+
+.left{
+    width: 20%;
+}
+
+.middle{
+    padding: 0 20px; 
+}
+/*Fine parte sottocontenitori*/
+
+footer{
+    background-color: #8801fe;
+    height: 50px; 
+}
