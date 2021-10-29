@@ -57,10 +57,20 @@ header, .container, .title{
 .container{
     background-image: url(../img/banner.jpg);
     height: 450px;
+    border-radius: 20px;
     background-position: center;
     background-size: cover; 
     position: relative;
 }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+
 
 .text-image, .small-text{
     width: 50%;
@@ -69,26 +79,26 @@ header, .container, .title{
 .text-image{
     position: absolute;
     bottom: 20%;
-    left: 35px;
+    left: 30px;
     color: white;
     font-size: 30px;
 }
 
 .small-text{
-    bottom: 13%;
-    font-size: 15px;
+    bottom: 10%;
+    font-size: 13px;
 }
 
 
 .container2{
-    background-color: #0086fe;
+    
     width: 100%;
     padding-bottom: 20px;
     display: inline-block;
 }
 
-/*Sottocontenitori*/
 
+/*Sottocontenitori*/
 .title h1{
     font-size: 30px;
 }
@@ -112,6 +122,7 @@ header, .container, .title{
     width: 100%;
     background-repeat: no-repeat;
     height: 200px;
+    border-radius: 20px;
 }
 
 .middle-container{
@@ -124,7 +135,9 @@ header, .container, .title{
     background-repeat: no-repeat;
     height: 200px;
     background-position: center;
+    border-radius: 20px;
 }
+
 
 
 .right{
@@ -134,18 +147,28 @@ header, .container, .title{
     background-repeat: no-repeat;
     height: 200px;
     background-position: center;
+    border-radius: 20px;
 }
+
 
 .text-ui{
-    color: #a4a4a4;
+    color: #5c5c5c;
+    font-weight: bold;
 }
 
-
-
+.colonna h4, .middle-container h4{
+    margin: 10px 0;
+}
 /*Fine parte sottocontenitori*/
 
 footer{
     margin-top: 10px;
-    background-color: #8801fe;
-    height: 50px; 
+    text-align: center; 
+}
+
+footer span{
+    color: red;
+}
+footer div{
+    font-weight: bold;
 }
