@@ -68,6 +68,10 @@ header, .container2, nav{
     border-radius: 20px;
 }
 
+.overlay:hover{
+    display: none;
+}
+
 .text-image, .small-text{
     width: 50%;
 }
@@ -112,14 +116,15 @@ header, .container2, nav{
 
 .left, .image-middle, .right{
     background-size: cover;
-    height: 200px;
+    height: 250px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    background-position: center;
 }
 
 .left{
     background-image: url(../img/img-1.jpg);  
-    width: 100%;
+    width: 100%; 
 }
 
 .middle-container{
@@ -127,15 +132,13 @@ header, .container2, nav{
     padding: 0 20px;
 }
 .image-middle{ 
-    background-image: url(../img/banner-2.jpg);  
-    background-position: center;  
+    background-image: url(../img/banner-2.jpg);    
 }
 
 
 .right{
     background-image: url(../img/img-3.jpg); 
-    width: 100%; 
-    background-position: center; 
+    width: 100%;  
 }
 
 
