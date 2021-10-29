@@ -20,12 +20,6 @@ body{
     padding-right: 20px;
 }
 
-
-
-nav{
-    margin: 20px 0;
-}
-
 ul li{
     display: inline-block;
     text-transform: uppercase;
@@ -50,8 +44,12 @@ ul li a:hover{
 }
 
 /*Distanziamento sezioni*/
-header, .container, .title{
+header, .container2, nav{
     margin: 20px 0;
+}
+
+.title{
+    margin-bottom: 20px;
 }
 
 .container{
@@ -70,8 +68,6 @@ header, .container, .title{
     border-radius: 20px;
 }
 
-
-
 .text-image, .small-text{
     width: 50%;
 }
@@ -89,9 +85,7 @@ header, .container, .title{
     font-size: 13px;
 }
 
-
 .container2{
-    
     width: 100%;
     padding-bottom: 20px;
     display: inline-block;
@@ -116,13 +110,16 @@ header, .container, .title{
     width: 20%;
 }
 
-.left{
-    background-image: url(../img/img-1.jpg);
+.left, .image-middle, .right{
     background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
     height: 200px;
+    background-repeat: no-repeat;
     border-radius: 20px;
+}
+
+.left{
+    background-image: url(../img/img-1.jpg);  
+    width: 100%;
 }
 
 .middle-container{
@@ -130,30 +127,20 @@ header, .container, .title{
     padding: 0 20px;
 }
 .image-middle{ 
-    background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 200px;
-    background-position: center;
-    border-radius: 20px;
+    background-image: url(../img/banner-2.jpg);  
+    background-position: center;  
 }
 
 
-
 .right{
-    background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 200px;
-    background-position: center;
-    border-radius: 20px;
+    background-image: url(../img/img-3.jpg); 
+    width: 100%; 
+    background-position: center; 
 }
 
 
 .text-ui{
     color: #5c5c5c;
-    font-weight: bold;
 }
 
 .colonna h4, .middle-container h4{
@@ -162,13 +149,12 @@ header, .container, .title{
 /*Fine parte sottocontenitori*/
 
 footer{
-    margin-top: 10px;
     text-align: center; 
 }
 
 footer span{
     color: red;
 }
-footer div{
+footer div, .text-ui, ul li{
     font-weight: bold;
 }
